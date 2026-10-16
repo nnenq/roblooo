@@ -1,0 +1,1061 @@
+{
+ "name": "KrotikRostok",
+ "title": "Кротик-Росток",
+ "units": "studs",
+ "up": "+Y",
+ "front": "-Z",
+ "palette": {
+  "fur": "#8f5b3d",
+  "shade": "#5e3a26",
+  "face": "#f2c9a0",
+  "paw": "#ffb09e",
+  "claw": "#fff3df",
+  "nose": "#ff6f9c",
+  "blush": "#ff9cb8",
+  "eye": "#1d120b",
+  "shine": "#ffffff",
+  "mouth": "#4a2414",
+  "leaf": "#74d63f",
+  "stem": "#3f9e2a",
+  "scarf": "#4cc23a",
+  "crown": "#ffc423",
+  "gem": "#ff4f86"
+ },
+ "roleClass": {
+  "fur": "main",
+  "shade": "shade",
+  "face": "light",
+  "paw": "light",
+  "claw": "light",
+  "nose": "light",
+  "blush": "light",
+  "leaf": "accent",
+  "stem": "accent",
+  "scarf": "accent",
+  "crown": "accent",
+  "gem": "accent"
+ },
+ "parts": [
+  {
+   "name": "Body",
+   "role": "fur",
+   "shape": "sphere",
+   "size": [
+    2.1,
+    1.65,
+    1.9
+   ],
+   "pos": [
+    0.0,
+    0.85,
+    0.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "Belly",
+   "role": "face",
+   "shape": "sphere",
+   "size": [
+    1.25,
+    1.0,
+    0.5
+   ],
+   "pos": [
+    0.0,
+    0.75,
+    -0.78
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "Tail",
+   "role": "shade",
+   "shape": "sphere",
+   "size": [
+    0.32,
+    0.32,
+    0.42
+   ],
+   "pos": [
+    0.0,
+    0.62,
+    0.95
+   ],
+   "rot": [
+    -20.0,
+    0.0,
+    0.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "Head",
+   "role": "fur",
+   "shape": "sphere",
+   "size": [
+    2.75,
+    2.35,
+    2.4
+   ],
+   "pos": [
+    0.0,
+    2.15,
+    -0.05
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "Muzzle",
+   "role": "face",
+   "shape": "sphere",
+   "size": [
+    1.45,
+    0.92,
+    0.9
+   ],
+   "pos": [
+    0.0,
+    1.78,
+    -0.98
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "Nose",
+   "role": "nose",
+   "shape": "sphere",
+   "size": [
+    0.54,
+    0.4,
+    0.4
+   ],
+   "pos": [
+    0.0,
+    2.02,
+    -1.33
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "NoseShine",
+   "role": "shine",
+   "shape": "sphere",
+   "size": [
+    0.16,
+    0.09,
+    0.08
+   ],
+   "pos": [
+    0.1,
+    2.11,
+    -1.48
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "MouthL",
+   "role": "mouth",
+   "shape": "sphere",
+   "size": [
+    0.25,
+    0.07,
+    0.07
+   ],
+   "pos": [
+    0.095,
+    1.585,
+    -1.385
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    28.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "MouthR",
+   "role": "mouth",
+   "shape": "sphere",
+   "size": [
+    0.25,
+    0.07,
+    0.07
+   ],
+   "pos": [
+    -0.095,
+    1.585,
+    -1.385
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    -28.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "EyeL",
+   "role": "eye",
+   "shape": "sphere",
+   "size": [
+    0.46,
+    0.6,
+    0.24
+   ],
+   "pos": [
+    0.58,
+    2.42,
+    -1.06
+   ],
+   "rot": [
+    10.0,
+    -22.0,
+    0.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "EyeShineL",
+   "role": "shine",
+   "shape": "sphere",
+   "size": [
+    0.18,
+    0.18,
+    0.08
+   ],
+   "pos": [
+    0.6963,
+    2.5586,
+    -1.0974
+   ],
+   "rot": [
+    10.0,
+    -22.0,
+    -0.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "EyeSparkL",
+   "role": "shine",
+   "shape": "sphere",
+   "size": [
+    0.08,
+    0.08,
+    0.05
+   ],
+   "pos": [
+    0.5433,
+    2.3034,
+    -1.2051
+   ],
+   "rot": [
+    10.0,
+    -22.0,
+    -0.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "CheekL",
+   "role": "blush",
+   "shape": "sphere",
+   "size": [
+    0.42,
+    0.22,
+    0.12
+   ],
+   "pos": [
+    0.98,
+    1.95,
+    -0.8
+   ],
+   "rot": [
+    0.0,
+    -42.0,
+    0.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "EyeR",
+   "role": "eye",
+   "shape": "sphere",
+   "size": [
+    0.46,
+    0.6,
+    0.24
+   ],
+   "pos": [
+    -0.58,
+    2.42,
+    -1.06
+   ],
+   "rot": [
+    10.0,
+    22.0,
+    0.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "EyeShineR",
+   "role": "shine",
+   "shape": "sphere",
+   "size": [
+    0.18,
+    0.18,
+    0.08
+   ],
+   "pos": [
+    -0.5387,
+    2.5697,
+    -1.1601
+   ],
+   "rot": [
+    10.0,
+    22.0,
+    -0.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "EyeSparkR",
+   "role": "shine",
+   "shape": "sphere",
+   "size": [
+    0.08,
+    0.08,
+    0.05
+   ],
+   "pos": [
+    -0.6916,
+    2.293,
+    -1.1461
+   ],
+   "rot": [
+    10.0,
+    22.0,
+    -0.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "CheekR",
+   "role": "blush",
+   "shape": "sphere",
+   "size": [
+    0.42,
+    0.22,
+    0.12
+   ],
+   "pos": [
+    -0.98,
+    1.95,
+    -0.8
+   ],
+   "rot": [
+    0.0,
+    42.0,
+    0.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "PawL",
+   "role": "paw",
+   "shape": "sphere",
+   "size": [
+    0.8,
+    0.64,
+    0.56
+   ],
+   "pos": [
+    1.08,
+    1.1,
+    -0.55
+   ],
+   "rot": [
+    0.0,
+    10.0,
+    -30.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "ClawL1",
+   "role": "claw",
+   "shape": "sphere",
+   "size": [
+    0.15,
+    0.3,
+    0.15
+   ],
+   "pos": [
+    0.9942,
+    1.4675,
+    -0.5958
+   ],
+   "rot": [
+    -0.0,
+    10.0,
+    -12.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "ClawL2",
+   "role": "claw",
+   "shape": "sphere",
+   "size": [
+    0.15,
+    0.3,
+    0.15
+   ],
+   "pos": [
+    1.2321,
+    1.3858,
+    -0.6377
+   ],
+   "rot": [
+    -0.0,
+    10.0,
+    -30.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "ClawL3",
+   "role": "claw",
+   "shape": "sphere",
+   "size": [
+    0.15,
+    0.3,
+    0.15
+   ],
+   "pos": [
+    1.4207,
+    1.2175,
+    -0.671
+   ],
+   "rot": [
+    -0.0,
+    10.0,
+    -48.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "FootL",
+   "role": "paw",
+   "shape": "sphere",
+   "size": [
+    0.64,
+    0.32,
+    0.82
+   ],
+   "pos": [
+    0.52,
+    0.16,
+    -0.38
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "PawR",
+   "role": "paw",
+   "shape": "sphere",
+   "size": [
+    0.8,
+    0.64,
+    0.56
+   ],
+   "pos": [
+    -1.08,
+    1.1,
+    -0.55
+   ],
+   "rot": [
+    0.0,
+    -10.0,
+    30.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "ClawR1",
+   "role": "claw",
+   "shape": "sphere",
+   "size": [
+    0.15,
+    0.3,
+    0.15
+   ],
+   "pos": [
+    -1.4207,
+    1.2175,
+    -0.671
+   ],
+   "rot": [
+    -0.0,
+    -10.0,
+    48.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "ClawR2",
+   "role": "claw",
+   "shape": "sphere",
+   "size": [
+    0.15,
+    0.3,
+    0.15
+   ],
+   "pos": [
+    -1.2321,
+    1.3858,
+    -0.6377
+   ],
+   "rot": [
+    -0.0,
+    -10.0,
+    30.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "ClawR3",
+   "role": "claw",
+   "shape": "sphere",
+   "size": [
+    0.15,
+    0.3,
+    0.15
+   ],
+   "pos": [
+    -0.9942,
+    1.4675,
+    -0.5958
+   ],
+   "rot": [
+    -0.0,
+    -10.0,
+    12.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "FootR",
+   "role": "paw",
+   "shape": "sphere",
+   "size": [
+    0.64,
+    0.32,
+    0.82
+   ],
+   "pos": [
+    -0.52,
+    0.16,
+    -0.38
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "Tuft",
+   "role": "shade",
+   "shape": "sphere",
+   "size": [
+    0.44,
+    0.16,
+    0.44
+   ],
+   "pos": [
+    0.0,
+    3.3,
+    -0.05
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "Stem",
+   "role": "stem",
+   "shape": "cylinder",
+   "size": [
+    0.16,
+    0.7,
+    0.16
+   ],
+   "pos": [
+    0.0,
+    3.62,
+    -0.05
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    4.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "LeafL",
+   "role": "leaf",
+   "shape": "sphere",
+   "size": [
+    1.1,
+    0.13,
+    0.66
+   ],
+   "pos": [
+    0.4548,
+    4.1048,
+    -0.1866
+   ],
+   "rot": [
+    -38.0,
+    0.0,
+    26.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "LeafLVein",
+   "role": "stem",
+   "shape": "sphere",
+   "size": [
+    0.858,
+    0.035,
+    0.06
+   ],
+   "pos": [
+    0.4442,
+    4.1516,
+    -0.2231
+   ],
+   "rot": [
+    -38.0,
+    0.0,
+    26.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "LeafR",
+   "role": "leaf",
+   "shape": "sphere",
+   "size": [
+    1.3,
+    0.13,
+    0.76
+   ],
+   "pos": [
+    -0.5545,
+    4.1065,
+    -0.1879
+   ],
+   "rot": [
+    -38.0,
+    0.0,
+    -22.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "LeafRVein",
+   "role": "stem",
+   "shape": "sphere",
+   "size": [
+    1.014,
+    0.035,
+    0.06
+   ],
+   "pos": [
+    -0.5508,
+    4.1547,
+    -0.2255
+   ],
+   "rot": [
+    -38.0,
+    0.0,
+    -22.0
+   ],
+   "group": "base"
+  },
+  {
+   "name": "Scarf",
+   "role": "scarf",
+   "shape": "sphere",
+   "size": [
+    2.28,
+    0.38,
+    2.1
+   ],
+   "pos": [
+    0.0,
+    1.36,
+    -0.02
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "group": "scarf"
+  },
+  {
+   "name": "ScarfKnot",
+   "role": "scarf",
+   "shape": "sphere",
+   "size": [
+    0.3,
+    0.3,
+    0.2
+   ],
+   "pos": [
+    -0.6,
+    1.25,
+    -0.93
+   ],
+   "rot": [
+    0.0,
+    25.0,
+    0.0
+   ],
+   "group": "scarf"
+  },
+  {
+   "name": "ScarfTail",
+   "role": "scarf",
+   "shape": "sphere",
+   "size": [
+    0.24,
+    0.5,
+    0.1
+   ],
+   "pos": [
+    -0.7,
+    0.98,
+    -0.93
+   ],
+   "rot": [
+    0.0,
+    25.0,
+    -18.0
+   ],
+   "group": "scarf"
+  },
+  {
+   "name": "CrownBand",
+   "role": "crown",
+   "shape": "cylinder",
+   "size": [
+    0.92,
+    0.22,
+    0.92
+   ],
+   "pos": [
+    0.06,
+    3.36,
+    -0.05
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    -8.0
+   ],
+   "group": "crown"
+  },
+  {
+   "name": "CrownSpike1",
+   "role": "crown",
+   "shape": "sphere",
+   "size": [
+    0.16,
+    0.36,
+    0.16
+   ],
+   "pos": [
+    -0.1334,
+    3.5891,
+    -0.3574
+   ],
+   "rot": [
+    -0.0,
+    0.0,
+    -8.0
+   ],
+   "group": "crown"
+  },
+  {
+   "name": "CrownSpike2",
+   "role": "crown",
+   "shape": "sphere",
+   "size": [
+    0.16,
+    0.36,
+    0.16
+   ],
+   "pos": [
+    -0.27,
+    3.6084,
+    0.0674
+   ],
+   "rot": [
+    -0.0,
+    0.0,
+    -8.0
+   ],
+   "group": "crown"
+  },
+  {
+   "name": "CrownSpike3",
+   "role": "crown",
+   "shape": "sphere",
+   "size": [
+    0.16,
+    0.36,
+    0.16
+   ],
+   "pos": [
+    0.0878,
+    3.5581,
+    0.33
+   ],
+   "rot": [
+    -0.0,
+    0.0,
+    -8.0
+   ],
+   "group": "crown"
+  },
+  {
+   "name": "CrownSpike4",
+   "role": "crown",
+   "shape": "sphere",
+   "size": [
+    0.16,
+    0.36,
+    0.16
+   ],
+   "pos": [
+    0.4457,
+    3.5078,
+    0.0674
+   ],
+   "rot": [
+    -0.0,
+    0.0,
+    -8.0
+   ],
+   "group": "crown"
+  },
+  {
+   "name": "CrownSpike5",
+   "role": "crown",
+   "shape": "sphere",
+   "size": [
+    0.16,
+    0.36,
+    0.16
+   ],
+   "pos": [
+    0.309,
+    3.527,
+    -0.3574
+   ],
+   "rot": [
+    -0.0,
+    0.0,
+    -8.0
+   ],
+   "group": "crown"
+  },
+  {
+   "name": "CrownGem",
+   "role": "gem",
+   "shape": "sphere",
+   "size": [
+    0.17,
+    0.17,
+    0.08
+   ],
+   "pos": [
+    0.0628,
+    3.3798,
+    -0.52
+   ],
+   "rot": [
+    -0.0,
+    0.0,
+    37.0
+   ],
+   "group": "crown"
+  }
+ ],
+ "rarities": [
+  {
+   "id": "Common",
+   "color": "#b9b2a8",
+   "groups": [],
+   "glowLeaves": false,
+   "fx": null,
+   "scale": 1.0
+  },
+  {
+   "id": "Uncommon",
+   "color": "#5ccf45",
+   "groups": [
+    "scarf"
+   ],
+   "glowLeaves": false,
+   "fx": "shine",
+   "scale": 1.0
+  },
+  {
+   "id": "Rare",
+   "color": "#3fa9ff",
+   "groups": [],
+   "glowLeaves": true,
+   "fx": "sparkle",
+   "scale": 1.0
+  },
+  {
+   "id": "Epic",
+   "color": "#b670ff",
+   "groups": [],
+   "glowLeaves": true,
+   "fx": "aura",
+   "scale": 1.0
+  },
+  {
+   "id": "Legendary",
+   "color": "#ffc423",
+   "groups": [],
+   "glowLeaves": true,
+   "fx": "rays",
+   "scale": 1.05
+  },
+  {
+   "id": "Mythic",
+   "color": "#ff4f86",
+   "groups": [
+    "crown"
+   ],
+   "glowLeaves": true,
+   "fx": "particles",
+   "scale": 1.05
+  },
+  {
+   "id": "Secret",
+   "color": "#6ff2ff",
+   "groups": [
+    "crown"
+   ],
+   "glowLeaves": true,
+   "fx": "cosmic",
+   "scale": 1.15
+  }
+ ],
+ "mutations": [
+  {
+   "id": "None",
+   "mult": 1
+  },
+  {
+   "id": "Gold",
+   "mult": 2,
+   "material": "metal",
+   "reflectance": 0.3,
+   "palette": {
+    "main": "#ffc436",
+    "shade": "#c98a00",
+    "light": "#ffe08a",
+    "accent": "#e0a100"
+   }
+  },
+  {
+   "id": "Diamond",
+   "mult": 3,
+   "material": "glass",
+   "transparency": 0.2,
+   "reflectance": 0.2,
+   "palette": {
+    "main": "#8fdfff",
+    "shade": "#3aa6dc",
+    "light": "#d2f5ff",
+    "accent": "#5cc6f2"
+   }
+  },
+  {
+   "id": "Rainbow",
+   "mult": 6,
+   "colors": [
+    "#ff8a8a",
+    "#ffc27a",
+    "#fff27a",
+    "#8cf08a",
+    "#7ad7ff",
+    "#b99bff"
+   ]
+  },
+  {
+   "id": "Galaxy",
+   "mult": 15,
+   "glow": "#b98cff",
+   "palette": {
+    "main": "#2d1458",
+    "shade": "#1f0d40",
+    "light": "#4b2a8a",
+    "accent": "#8f5cff"
+   }
+  }
+ ]
+}

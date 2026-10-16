@@ -1,0 +1,120 @@
+newmtl fur
+Kd 0.5608 0.3569 0.2392
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+Ns 40
+d 1
+illum 2
+
+newmtl face
+Kd 0.9490 0.7882 0.6275
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+Ns 40
+d 1
+illum 2
+
+newmtl shade
+Kd 0.3686 0.2275 0.1490
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+Ns 40
+d 1
+illum 2
+
+newmtl paw
+Kd 1.0000 0.6902 0.6196
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+Ns 40
+d 1
+illum 2
+
+newmtl claw
+Kd 1.0000 0.9529 0.8745
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+Ns 40
+d 1
+illum 2
+
+newmtl nose
+Kd 1.0000 0.4353 0.6118
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+Ns 40
+d 1
+illum 2
+
+newmtl blush
+Kd 1.0000 0.6118 0.7216
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+Ns 40
+d 1
+illum 2
+
+newmtl eye
+Kd 0.1137 0.0706 0.0431
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+Ns 40
+d 1
+illum 2
+
+newmtl shine
+Kd 1.0000 1.0000 1.0000
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+Ns 40
+d 1
+illum 2
+
+newmtl mouth
+Kd 0.2902 0.1412 0.0784
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+Ns 40
+d 1
+illum 2
+
+newmtl leaf
+Kd 0.4549 0.8392 0.2471
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+Ns 40
+d 1
+illum 2
+
+newmtl stem
+Kd 0.2471 0.6196 0.1647
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+Ns 40
+d 1
+illum 2
+
+newmtl scarf
+Kd 0.2980 0.7608 0.2275
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+Ns 40
+d 1
+illum 2
+
+newmtl crown
+Kd 1.0000 0.7686 0.1373
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+Ns 40
+d 1
+illum 2
+
+newmtl gem
+Kd 1.0000 0.3098 0.5255
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+Ns 40
+d 1
+illum 2
+
