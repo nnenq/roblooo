@@ -29,6 +29,7 @@
 
 ### 2. Claude Code на твоём компьютере
 Подойдёт десктоп-приложение Claude (вкладка Code) или CLI. Облачная сессия не дотянется до Studio на твоём ПК, MCP работает только локально.
+Ещё вариант: `claude remote-control` в терминале в папке проекта. Такая сессия работает на твоём ПК, но видна в приложении Claude Code, в том числе с телефона.
 
 ### 3. Подключить Studio MCP к Claude Code
 1. Studio → **Assistant Settings** → **MCP Servers** → раскрыть **Quick connect** → включить **Claude Code**.

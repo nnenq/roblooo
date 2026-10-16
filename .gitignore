@@ -1,0 +1,5 @@
+node_modules/
+__pycache__/
+sourcemap.json
+*.rbxl.lock
+*.rbxlx.lock
