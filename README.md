@@ -12,10 +12,16 @@
 | [docs/02-game-design.md](docs/02-game-design.md) | Диздок: цикл, механика «Жадности», угрозы, база, прогрессия, психология, монетизация, стиль |
 | [docs/03-roadmap.md](docs/03-roadmap.md) | Этапы, оценка токенов, MVP, метрики, чек-лист запуска, риски |
 | [docs/04-setup.md](docs/04-setup.md) | Что установить: Roblox Studio MCP, Claude Code, VS Code-расширения, Rokit/Rojo |
+| [docs/05-monetization.md](docs/05-monetization.md) | Донат: что продают хиты, наш прайс, время прохождения с донатом и без, честные правила |
+| [docs/06-visual-style.md](docs/06-visual-style.md) | Визуальный стиль: палитра, шрифты, UI, фишки, 3D-сцена, иконка |
+| [tools/economy_sim.py](tools/economy_sim.py) | Симулятор экономики: `python3 tools/economy_sim.py` |
+
+Макет интерфейса (игра, магазин, гайд по стилю): [Greedy Slimes — UI](https://claude.ai/artifact/GeurF4AuuNSLLjr784ZqKZ).
 
 ## Статус
 
 - [x] Этап 0 — исследование и план
+- [x] Этап 0.5 — донат, баланс экономики (симулятор), визуальный стиль и макет UI
 - [ ] Этап 1 — каркас Rojo + ядро логики
 - [ ] Этап 2 — сборка в Studio (нужен локальный Claude Code + Studio MCP)
 - [ ] Этап 3 — UI, FTUE, монетизация, сохранения
